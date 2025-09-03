@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que são Kubernetes e Contêineres</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    :root {
+        --preto: #111;
+        --cinza-escuro: #222;
+        --cinza-claro: #ccc;
+        --branco: #f9f9f9;
+
+
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: var(--preto);
+        color: var(--branco);
+        line-height: 1.6;
+    }
+
+
+    header {
+        background: var(--cinza-escuro);
+        border-bottom: 2px solid #333;
+        padding: 15px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: var(--cinza-claro);
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: var(--branco);
+    }
+
+
+    main {
+        max-width: 900px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    section {
+        margin-bottom: 60px;
+    }
+
+    section h2 {
+        margin-bottom: 15px;
+        font-size: 26px;
+        border-left: 5px solid var(--cinza-claro);
+        padding-left: 10px;
+    }
+
+    section p {
+        margin-bottom: 15px;
+        color: #ddd;
+    }
+
+
+    .botao-navegacao {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: var(--cinza-escuro);
+        color: var(--branco);
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        text-decoration: none;
+        transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .botao-navegacao:hover {
+        background-color: var(--cinza-claro);
+        transform: translateY(-2px);
+    }
+
+
+    footer {
+        background: var(--cinza-escuro);
+        text-align: center;
+        padding: 20px;
+        color: var(--cinza-claro);
+        font-size: 14px;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>O que são Kubernetes e Contêineres?</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Por que usar containers</h2>
+             
+                <p>
+                    Containers permitem empacotar aplicações e suas dependências em um único pacote leve, garantindo que
+                    funcionem de forma idêntica em qualquer ambiente — seja no computador do desenvolvedor, servidores
+                    ou na nuvem. Eles facilitam a escalabilidade, o desenvolvimento ágil e aumentam a segurança,
+                    isolando aplicações e evitando conflitos de software. Assim, tornam a implantação e a gestão de
+                    sistemas mais eficientes e confiáveis.
+                </p>
+
+    </main>
+    <a href="p6-oq-sao-kubernets.html" class="botao-navegacao">Oque são Kubernetes?</a>
+    <footer>
+        <p>Trabalho desenvolvido para a ETEC de Santa Isabel — 2025</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ :root {
+            --preto: #111;
+            --cinza-escuro: #222;
+            --cinza-claro: #ccc;
+            --branco: #f9f9f9;
+            
+      
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: var(--preto);
+            color: var(--branco);
+            line-height: 1.6;
+        }
+
+        
+        header {
+            background: var(--cinza-escuro);
+            border-bottom: 2px solid #333;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        header h1 {
+            font-size: 22px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--cinza-claro);
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: var(--branco);
+        }
+
+  
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            font-size: 26px;
+            border-left: 5px solid var(--cinza-claro);
+            padding-left: 10px;
+        }
+
+        section p {
+            margin-bottom: 15px;
+            color: #ddd;
+        }
+
+
+        .botao-navegacao {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: var(--cinza-escuro);
+            color: var(--branco);
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .botao-navegacao:hover {
+            background-color: var(--cinza-claro);
+            transform: translateY(-2px);
+        }
+
+      
+        footer {
+            background: var(--cinza-escuro);
+            text-align: center;
+            padding: 20px;
+            color: var(--cinza-claro);
+            font-size: 14px;
+        }
+
+</style>
+
+</style>
+<body>
+<header>
+  <h1>Por que usar Kubernetes?</h1>
+</header>
+<main>
+  <ul>
+    <li><strong>Escalabilidade:</strong> Ajusta automaticamente o número de instâncias conforme a demanda.</li>
+    <li><strong>Orquestração:</strong> Coordena implantação, atualização e gerenciamento de múltiplos contêineres.</li>
+    <li><strong>Alta disponibilidade:</strong> Monitora e substitui contêineres falhos automaticamente.</li>
+    <li><strong>Gerenciamento simplificado:</strong> Automatiza tarefas complexas como roteamento, armazenamento e balanceamento de carga.</li>
+    <li><strong>Portabilidade:</strong> Executa aplicações de forma consistente em diferentes ambientes de nuvem ou on-premises.</li>
+  </ul>
+ <a href="index.html" class="botao-navegacao">voltar ao inicio</a>
+  <footer>
+    <p>Trabalho desenvolvido para a ETEC de Santa Isabel — 2025</p>
+  </footer>
+</main>
+</body>
+</html>
